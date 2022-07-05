@@ -1,0 +1,39 @@
+.foot{
+    background-color: rgba(238, 188, 247, 0.8);
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+  }
+  
+  .footer-right{
+    margin: auto 40px;
+    display: flex; 
+    justify-content: right;
+    vertical-align: middle;
+  }
+  
+  .footer-left{
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left:40px;
+    display: flex; 
+    justify-content: left;
+    vertical-align: middle;
+  }
+  
+  .ma{
+    margin-left: 5px;
+  }
+  
+  .aviso{
+    display:flex;
+    margin: auto;
+    align-items: left;
+    padding: auto;
+    align-items: center;
+    position: absolute;
+  }
+  

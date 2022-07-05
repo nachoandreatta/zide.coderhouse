@@ -1,0 +1,82 @@
+.grid1{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding: auto;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .grid-eq{
+    grid-template-columns: repeat(8);
+    grid-template-rows: repeat(2);
+    grid-template-areas: 
+    "team team team team team team team team"
+    "team team team team team team team team";
+  }
+  
+  .grid2{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding: auto;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    font-size: 125%;
+  }
+  
+  .grid-tb{
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(17, 1fr);
+    grid-template-areas: 
+    "pos equipo gan per puntos"
+    "pos team gan per puntos";
+  }
+  
+  #pos{
+    grid-area: pos;
+  }
+  
+  #equipo{
+    grid-area: equipo;
+  }
+  
+  #ganados{
+    grid-area: gan;
+  }
+  
+  #perdidos{
+    grid-area: per;
+  }
+  
+  #puntos{
+    grid-area: puntos;
+  }
+  
+  #teams{
+    grid-area: team;
+  }
+  
+  #nav{
+    grid-area: nav;
+  }
+  
+  #footer{
+    grid-area: footer;
+    bottom: 0;
+  }
+  
+  .ptabla{
+    font-size: 125%;
+  }
+  

@@ -1,0 +1,82 @@
+.text-center{
+    text-align: center;
+  }
+  
+  .animation{
+      animation-duration: 3s;
+      animation-name: slidein;
+    }
+    
+    @keyframes slidein {
+      from {
+        margin-left: 100%;
+        width: 100%
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+  }
+  
+  .reglp{
+    color: whitesmoke;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+  
+  ol{
+    list-style: circle; 
+    margin-left: 60px;
+    color: whitesmoke;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-center{
+    justify-content: center;
+  }
+  
+  .dim{ 
+      display: flex; 
+      margin-left: auto;
+      margin-right: auto; 
+      justify-content: center; 
+      align-items: center;
+  }
+  
+  .dim2{
+    width: 50%; 
+    height: auto; 
+    display: flex; 
+    padding: center;
+    margin: 40px auto; 
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .dim3{
+    max-width: 220px;
+    max-height: 220px;
+    min-width: 220px;
+    min-height: 220px;
+  }
+  
+  .dim4{
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+  .backcaja{
+      background-color: mediumpurple; 
+      width: 25%; 
+      height: auto;
+      margin: auto; 
+      padding: auto;
+  }
+  
+  .img{
+      justify-content: left;
+  }
+
+  

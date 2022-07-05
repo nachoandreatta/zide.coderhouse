@@ -19,22 +19,16 @@
   opacity: 10;
 }
 
+
+
+/*--------------------------NAV---------------------------*/
+
+/*--------------------------BODY---------------------------*/
 body{ 
   display:flex; 
   flex-direction:column; 
 }
 
-/*--------------------------NAV---------------------------*/
-.nav{
-  background-color: rgba(238, 188, 247, 0.8);
-}
-
-.bv{
-  color: blueviolet;
-  font-size: 125%;
-}
-
-/*--------------------------BODY---------------------------*/
 h1{
   color: whitesmoke;
   font-size: 300%;
@@ -74,7 +68,7 @@ p{
   @keyframes slidein {
     from {
       margin-left: 100%;
-      width: 300%
+      width: 100%
     }
   
     to {

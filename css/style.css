@@ -1,0 +1,294 @@
+@import url("http://fonts.cdnfonts.com/css/joy-multiplication");
+.nav {
+  background-color: rgba(238, 188, 247, 0.8);
+}
+
+.bv {
+  color: blueviolet;
+  font-size: 125%;
+}
+
+@media (min-width: 280px) and (max-width: 820px) {
+  /*general*/
+  h3, h2 {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+  }
+  .reglp {
+    text-align: left;
+    margin-left: auto;
+  }
+  .bot-box {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    height: auto;
+  }
+  .dim {
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  .dim3 {
+    max-width: 50vw;
+    max-height: 80px;
+  }
+  .grid1 {
+    width: 100%;
+    padding: auto;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+}
+.grid1 {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding: auto;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+}
+
+.grid-eq {
+  grid-template-columns: repeat(8);
+  grid-template-rows: repeat(2);
+  grid-template-areas: "team team team team team team team team" "team team team team team team team team";
+}
+
+.grid2 {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding: auto;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+  font-size: 125%;
+}
+
+.grid-tb {
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(17, 1fr);
+  grid-template-areas: "pos equipo gan per puntos" "pos team gan per puntos";
+}
+
+#pos {
+  grid-area: pos;
+}
+
+#equipo {
+  grid-area: equipo;
+}
+
+#ganados {
+  grid-area: gan;
+}
+
+#perdidos {
+  grid-area: per;
+}
+
+#puntos {
+  grid-area: puntos;
+}
+
+#teams {
+  grid-area: team;
+}
+
+#nav {
+  grid-area: nav;
+}
+
+#footer {
+  grid-area: footer;
+  bottom: 0;
+}
+
+.ptabla {
+  font-size: 125%;
+}
+
+.foot {
+  background-color: rgba(238, 188, 247, 0.8);
+  display: flex;
+  height: 60px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.footer-right {
+  margin: auto 40px;
+  display: flex;
+  justify-content: right;
+  vertical-align: middle;
+}
+
+.footer-left {
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-left: 40px;
+  display: flex;
+  justify-content: left;
+  vertical-align: middle;
+}
+
+.ma {
+  margin-left: 5px;
+}
+
+.aviso {
+  display: flex;
+  margin: auto;
+  align-items: left;
+  padding: auto;
+  align-items: center;
+  position: absolute;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.animation {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.reglp {
+  color: whitesmoke;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+ol {
+  list-style: circle;
+  margin-left: 60px;
+  color: whitesmoke;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.carousel-center {
+  justify-content: center;
+}
+
+.dim {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.dim2 {
+  width: 50%;
+  height: auto;
+  display: flex;
+  padding: center;
+  margin: 40px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.dim3 {
+  max-width: 220px;
+  max-height: 220px;
+  min-width: 220px;
+  min-height: 220px;
+}
+
+.dim4 {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.backcaja {
+  background-color: mediumpurple;
+  width: 25%;
+  height: auto;
+  margin: auto;
+  padding: auto;
+}
+
+.img {
+  justify-content: left;
+}
+
+* {
+  font-family: "Joy Multiplication", sans-serif;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 300%;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: whitesmoke;
+  font-size: 500%;
+  font-weight: bold;
+}
+
+h3 {
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 200%;
+  color: whitesmoke;
+}
+
+p {
+  color: whitesmoke;
+}
+
+.background {
+  background-image: url(../img/fondo.png);
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 10;
+}
+
+.background2 {
+  background-image: url(../logos/fondo.png);
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 10;
+}
+
+/*# sourceMappingURL=style.css.map */
