@@ -1,0 +1,10 @@
+@mixin parrafo($f-size,$color) {
+    font-size: $f-size;
+    color: $color;    
+}
+
+$colores:(
+    'white': #f5f5f5,
+    'violet': #9370d8,
+    'bluesea': #191970,
+);

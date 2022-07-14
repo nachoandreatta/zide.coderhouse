@@ -1,34 +1,17 @@
-.text-center{
+  .text-center{
     text-align: center;
   }
-  
-  .animation{
-      animation-duration: 3s;
-      animation-name: slidein;
-    }
-    
-    @keyframes slidein {
-      from {
-        margin-left: 100%;
-        width: 100%
-      }
-    
-      to {
-        margin-left: 0%;
-        width: 100%;
-      }
-  }
-  
+
   .reglp{
-    color: whitesmoke;
+    @include parrafo(100%, whitesmoke);
     margin-left: 40px;
     margin-bottom: 20px;
   }
   
   ol{
+    @include parrafo(110%, whitesmoke);
     list-style: circle; 
     margin-left: 60px;
-    color: whitesmoke;
     margin-top: -10px;
     margin-bottom: 10px;
   }
@@ -44,17 +27,16 @@
       justify-content: center; 
       align-items: center;
   }
-  
+
+/* extend */  
   .dim2{
-    width: 50%; 
-    height: auto; 
-    display: flex; 
-    padding: center;
+    @extend .dim;
     margin: 40px auto; 
-    justify-content: center; 
-    align-items: center;
+    padding: auto;
+    width: 50%;
+    height: auto;
   }
-  
+
   .dim3{
     max-width: 220px;
     max-height: 220px;
@@ -68,7 +50,7 @@
   }
   
   .backcaja{
-      background-color: mediumpurple; 
+      background-color: map-get($map:$colores , $key: 'violet'); 
       width: 25%; 
       height: auto;
       margin: auto; 

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compilado": "sass --watch css/general.scss css/style.css"
+    "compilado": "sass --watch scss/general.scss css/style.css"
   },
   "author": "",
   "license": "ISC",

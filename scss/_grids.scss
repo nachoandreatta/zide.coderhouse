@@ -37,9 +37,16 @@
   
   .grid-tb{
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(17, 1fr);
+    grid-template-rows: repeat(9, 1fr);
     grid-template-areas: 
     "pos equipo gan per puntos"
+    "pos team gan per puntos"
+    "pos team gan per puntos"
+    "pos team gan per puntos"
+    "pos team gan per puntos"
+    "pos team gan per puntos"
+    "pos team gan per puntos"
+    "pos team gan per puntos"
     "pos team gan per puntos";
   }
   
@@ -77,6 +84,6 @@
   }
   
   .ptabla{
-    font-size: 125%;
+    @include parrafo(125%, whitesmoke);
   }
   
