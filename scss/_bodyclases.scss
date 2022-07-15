@@ -37,6 +37,12 @@
     height: auto;
   }
 
+  .dims{
+    @extend .dim;
+    max-width: 400px;
+    max-height: 200px;
+  }
+
   .dim3{
     max-width: 220px;
     max-height: 220px;
@@ -60,5 +66,12 @@
   .img{
       justify-content: left;
   }
+
+  .jus-sb{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
 
   

@@ -14,10 +14,14 @@
     text-align: center;
     padding: auto;
     margin: auto;
+    font-size: 75%;
+  }
+  .text-center {
+    font-size: 100%;
   }
   .reglp {
     text-align: left;
-    margin-left: auto;
+    margin-left: 5px;
   }
   .bot-box {
     display: flex;
@@ -26,7 +30,7 @@
     justify-content: center;
     height: auto;
   }
-  .dim, .dim2 {
+  .dim, .dims, .dim2 {
     max-width: 80%;
     display: flex;
     justify-content: center;
@@ -43,7 +47,30 @@
     justify-items: center;
     align-items: center;
   }
+  .grid2 {
+    width: 100%;
+    gap: 0px;
+  }
 }
+.pos-foot {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-left {
+  display: flex;
+  margin-left: 5px;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 .grid1 {
   width: 100%;
   margin-left: auto;
@@ -179,7 +206,7 @@ ol {
   justify-content: center;
 }
 
-.dim, .dim2 {
+.dim, .dims, .dim2 {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -193,6 +220,11 @@ ol {
   padding: auto;
   width: 50%;
   height: auto;
+}
+
+.dims {
+  max-width: 400px;
+  max-height: 200px;
 }
 
 .dim3 {
@@ -219,10 +251,21 @@ ol {
   justify-content: left;
 }
 
+.jus-sb {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 * {
   font-family: "Joy Multiplication", sans-serif;
   padding: 0%;
   margin: 0%;
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
 }
 
 body {
@@ -258,14 +301,14 @@ p {
 }
 
 .background {
-  background-image: url(../img/fondo.png);
+  background-image: url(../img/fondo\ negro.jpg);
   background-size: cover;
   background-attachment: fixed;
   opacity: 10;
 }
 
 .background2 {
-  background-image: url(../logos/fondo.png);
+  background-image: url(../img/fondo\ azul.jpg);
   background-size: cover;
   background-attachment: fixed;
   opacity: 10;
